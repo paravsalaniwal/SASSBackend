@@ -10,6 +10,7 @@ import java.util.*;
 import java.text.SimpleDateFormat;
 
 @RestController
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RequestMapping("/api/person")
 public class PersonApiController {
     //     @Autowired
