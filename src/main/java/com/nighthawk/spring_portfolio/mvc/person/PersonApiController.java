@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@CrossOrigin(origins = "*", allowedHeaders = "*")
+
 @RequestMapping("/api/person")
 public class PersonApiController {
     //     @Autowired
